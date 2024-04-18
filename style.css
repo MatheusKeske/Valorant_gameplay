@@ -1,0 +1,61 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #c93030;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #c93030;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-games .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+
+#sobre-a-comunidade, #games {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #c93030;
+}
+
+.nav-games .nav-link.active,
+#fale-conosco button {
+    background-color: #c93030;
+    color: #fff;
+}
+
+.nav-games .nav-link:hover {
+    color: #c93030;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 180px;
+    }
+}
